@@ -2,7 +2,6 @@ const [sum, bestLaCroixFlavor, retNull] = require('./sum')
 
 // Toda função que é um prototype de expect ela somente se refere ao valor que é inserido como parametro.
 //As funções que não são prototype elas avaliam o return do valor.
-
 //Funções acompanhadas do expect avaliam o parametro da função ou seja o valor inputado.
 
 describe('toBe()', () => {
@@ -58,3 +57,7 @@ test('numeric ranges', () => {
       bananas: expect.not.toBeWithinRange(11, 20),
     });
 });
+
+
+// Async test
+
